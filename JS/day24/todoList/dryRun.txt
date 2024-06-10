@@ -1,0 +1,29 @@
+CREATE A TODO APP (BROWSER BASED)
+
+Tasks 
+    1.get Task
+    2.upgrade taks list by adding new Task
+
+
+HTML
+
+<body>
+    <input type="text" placeholder="enter your task" />
+    <button>add task</button>
+    <ul>
+        <li>eat</li>
+        <li>sleep</li>
+    </ul>
+
+    <script>
+        let input = document.querySelector('input');
+        let btn = document.querySelector('button');
+        let listItem = document.querySelector('li');
+
+        input.addEventListener('input', () => {
+            console.log(inpu.value);
+        });
+
+        
+    </script>
+</body>

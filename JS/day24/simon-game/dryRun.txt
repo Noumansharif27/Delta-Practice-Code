@@ -1,0 +1,10 @@
+what to do in the game?
+1. press any key to start the game. ✅
+2. update the level + flash a random button.
+3. user flash the button.
+4. update the gameSequence to track the the new and previous steps.
+5. compare the user's and game's sequence and showcase the result.
+
+
+
+

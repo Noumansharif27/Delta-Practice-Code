@@ -1,0 +1,96 @@
+/* #parent {
+  height: 500px;
+  width: 600px;
+  background-color: yellowgreen;
+  display: flex;
+  margin: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+} */
+#parent {
+  display: flex;
+  justify-self: center;
+  /* position: relative;
+  top: 0%;
+  right: 50%;
+  bottom: 20%;
+  left: 50%; */
+  margin: 10% 40%;
+  border: 2px solid orangered;
+  border-radius: 8px;
+  box-shadow: 4px 8px 20px black;
+}
+
+#parent:hover {
+  box-shadow: 8px 16px 35px black;
+}
+
+#syblings {
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  background-color: orangered;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  background-color: white;
+  color: blue;
+  text-align: center;
+  border: 2px solid blue;
+  border-radius: 8px;
+  margin: 10px;
+  margin-top: 40px;
+  /* transition: background-color 1s 0.5s ease-in; */
+  /* transition: color 1s 0.2s ease-in; */
+  /* display: flex; */
+  /* justify-self: center; */
+}
+.pswd {
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+button:hover {
+  box-shadow: 4px 8px 20px black;
+}
+
+input {
+  height: 20px;
+  background-color: wheat;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+input:hover {
+  border: 2px soid blue;
+  box-shadow: 2px 2px 10px black;
+}
+
+/* input:checked {
+  border: 2px soid blue;
+  box-shadow: 2px 2px 10px black;
+} */
+
+label:hover {
+  font-size: 30px;
+}
+
+@media (max-width: 400px) {
+  #parent {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,26 @@
+In this problem let suppose we got the value  
+                let inputNo = 287152;
+so the varible "number" have the value 287152 which we then copy to the variable named "copy".
+                let copy = inputNo;
+after taht we declair another variable named "sum" as we also initilize it the value 0.
+                let sum = 0;
+then we start our while-loop which will be running untill copy became "0".
+                while (copy < 0) {
+int that loop we declair another variable named "digit" which have an opration of  digit = copy % 10. (digit will store the remainder of copy).
+                let digit = copy % 10;
+apter that we set sum to sum = sum + digit.  which means every times the loop runs the answer of the varibale digit will add by the process of additing with current stored number in it.
+                sum += digit;
+then we update the value of copy by applying a function which will cover-up the decimal
+                copy = Math.floor(copy / 10);
+after that we close the loop and then we print out the sum.
+                } console.log(sum);
+
+
+              Initial value of copy: 287152
+              Iteration 1: digit = 2, sum = 0 + 2 = 2, copy = 28715
+              Iteration 2: digit = 5, sum = 2 + 5 = 7, copy = 2871
+              Iteration 3: digit = 1, sum = 7 + 1 = 8, copy = 287
+              Iteration 4: digit = 7, sum = 8 + 7 = 15, copy = 28
+              Iteration 5: digit = 8, sum = 15 + 8 = 23, copy = 2
+              Iteration 6: digit = 2, sum = 23 + 2 = 25, copy = 0
+              Final output: 25

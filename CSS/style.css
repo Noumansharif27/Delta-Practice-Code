@@ -1,0 +1,41 @@
+img {
+  height: 300;
+  width: 100%;
+  /* margin: 10px; */
+  border-radius: 25px;
+}
+
+.card {
+  height: 500px;
+  width: 410px;
+  border: 2px solid black;
+  border-radius: 25px;
+  display: inline-block;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  color: brown;
+}
+
+h4 {
+  text-align: right;
+  color: #000fff;
+}
+
+span {
+  color: #9d6f24;
+}
+
+@media (max-width: 450px) and (min-width: 200px) {
+  div {
+    flex-wrap: wrap;
+    margin: 10px 0px;
+  }
+}

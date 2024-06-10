@@ -1,0 +1,42 @@
+button {
+    background-color: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid aqua;
+}
+button:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.btn_1 {
+    background-color: white;
+    color: black;
+    /* font-size: 70px; */
+    border: 2px solid green;
+    transition: border-radius 1s 0.2s ease-in;
+    transition: background-color 1s 0.2s ease-in;
+}
+.btn_1:hover {
+    background-color: green;
+    color: white;
+    border-radius: 4%;
+}
+ 
+.btn_0:hover {
+    background-color: none;
+    color: none;
+}
+
+.btn_0 {
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+
+}
+.btn_0:active {
+    background-color: white;
+    color: orangered;
+    /* font-size: 70px; */
+    border: 2px solid orangered;
+}

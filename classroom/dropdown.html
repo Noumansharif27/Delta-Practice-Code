@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dropdown in HTML</title>
+  </head>
+  <body>
+      <form action="/server">
+          <header>
+              <h1>College Form in HTML</h1>
+              <h2>Last date of submition is 25<sup>th</sup> March 2024</h2>
+          </header>
+          <body>
+              <div>
+                  <input type="text" name="name" id="name" placeholder="name">
+                  <label for="name">name</label>
+  
+                  <input type="number" name="collegeid" id="collegeid" placeholder="college id">
+                  <label for="collegeid">College ID</label>
+                  <div>  
+                      <input type="text" name="LastDegree" id="LastDegree" placeholder="LastDegree">
+                      <label for="LastDegree">LastDegree</label>
+                      <input type="number" name="Marks" id="Marks" placeholder="Marks">
+                      <label for="Marks">Marks</label>
+                  </div>
+              </div>
+              <br>
+              <div>
+                <select name="Subject" id="Subject">
+                      <option value="Science">Science</option>
+                      <option value="Arts">Arts</option>
+                </select>
+              </div>
+              <br>
+              <!-- Subjects-->
+              <div>
+                  <!-- Ats Subjects -->
+                  <h2>Compulsary Subjects </h2>
+                  <input type="radio" name="artsubject1" id="English" value="English" checked>
+                  <label for="English">English</label>
+                  <input type="radio" name="artsubject2" id="Urdu" value="Urdu" checked>
+                  <label for="Urdu">Urdu</label>
+                  <input type="radio" name="artsubject3" id="History" value="History" checked>
+                  <label for="History">History</label>
+                  <input type="radio" name="artsubject4" id="Drawing" value="Drawing" checked>
+                  <label for="Drawing">Drawing</label>
+
+                  <!-- Science subjects -->
+                  <h2>Science Subjects </h2>
+                  <input type="radio" name="Sciencesubjects1" id="Math" checked>
+                  <label for="Math">Math</label>
+                  <input type="radio" name="Sciencesubjects2" id="Chemistry" checked>
+                  <label for="Chemistry">Chemistry</label>
+                  <input type="radio" name="Sciencesubjects3" id="Physics" checked>
+                  <label for="Physics">Physics</label>
+                  <input type="radio" name="Sciencesubjects" id="Biology">
+                  <label for="Biology">Biology</label>
+                  <input type="radio" name="Sciencesubjects" id="Computer">
+                  <label for="Computer">Computer</label>
+
+              </div>
+              <div>
+                  <input type="checkbox" name="age" id="age" checked>
+                  <label for="age">I am 18+</label>
+              
+                  <input type="checkbox" name="termsandcondition" id="termsandcondition" checked>
+                  <label for="termsandcondition">I agreed to terms and conditions</label>
+              </div>
+          </body>
+          <br>
+          <footer>
+              <table border="black">
+                 <theader>
+                      <caption>Marit list</caption>
+                 </theader>
+                 <tbody>
+                      <tr>
+                          <th>Subject</th>
+                          <th>Starting Marks</th>
+                          <th>Closing Marks</th>
+                      </tr>
+                      <tr>
+                          <td>CS</td>
+                          <td>1100</td>
+                          <td>950</td>
+                      </tr>
+                      <tr>
+                          <td>BSCS</td>
+                          <td>1000</td>
+                          <td>900</td>
+                      </tr>
+                      <tr>
+                          <td>BS</td>
+                          <td>900</td>
+                          <td>750</td>
+                      </tr>
+                      <tr>
+                          <td>BCOM</td>
+                          <td>800</td>
+                          <td>750</td>
+                      </tr>
+                 </tbody>
+              </table>
+              <button type="menu">Submit</button>
+          </footer>
+      </form>
+  </body>
+</html>

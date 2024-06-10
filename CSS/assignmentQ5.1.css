@@ -1,0 +1,20 @@
+.parent {
+  height: 50px;
+  width: 900px;
+  background-color: #ea9db7;
+  border: 2px solid aqua;
+  /* justify-content: space-between; */
+  display: flex;
+  border-radius: 10px;
+}
+
+.parent div {
+  /* height: 50px;
+  width: 80px; */
+  /* border-radius: 10px; */
+  margin-left: 20px;
+  font-size: 24px;
+  /* margin: 5px 2px 5px 10px; */
+  align-items: flex-start;
+  inline-size: 50px;
+}

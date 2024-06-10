@@ -1,0 +1,26 @@
+div {
+    margin-top: 10px;
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+    box-shadow: 4px 4px 10px black;
+    margin: auto;
+    background-image: url(jujutsu.jpg);
+    background-size: cover;
+}
+
+#btn {
+    height: 50px;
+    width: 100px;
+    margin: 1em;
+    background-color: #0d1117;
+    color: white;
+    padding: 5px;
+    transition: border-radius 1s ease 0.2s;
+}
+
+#btn:hover {
+    background-color: blueviolet;
+    color: black;
+    border-radius: 500px;
+}

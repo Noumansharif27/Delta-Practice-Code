@@ -1,0 +1,23 @@
+.div1 {
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 2px 4px 8px black;
+    transition: box-shadow 1s ease 0.1s;
+    border-radius: 5px;
+}
+
+.div1:hover {
+    box-shadow: 4px 8px 16px black;
+    border-radius: 5px;  
+}
+
+#desc {
+    padding: 0 5px 0;
+}
+
+img {
+    width: 100%;
+}

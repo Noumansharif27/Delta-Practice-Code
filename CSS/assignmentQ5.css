@@ -1,0 +1,36 @@
+#parent {
+    height: 500px;
+    width: 40%;
+    background-color: azure;
+    border: 2px solid aqua;
+    border-radius: 2%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 4px 8px 25px aqua;
+    transition: box-shadow 1s ease-in 0.5s;
+}
+#parent:hover {
+    box-shadow: 8px 16px 50px aqua;
+}
+
+#parent div {
+    height: 140px;
+    width: 140px;
+    background-color: darkgray;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 3.5em;
+    box-shadow: 2px 4px 10px black;
+    transition: box-shadow 1s ease 0.5s;
+}
+
+#parent div:hover {
+    box-shadow: 8px 16px 25px black;
+}
+
